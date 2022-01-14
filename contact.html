@@ -10,6 +10,12 @@
     <meta name="image" property="og:image" content="public/bh.jpg">
 
    <title>Home</title>
+
+   <script>
+       function sendMessage(){
+           alert('message sent');
+       }
+   </script>
 </head>
 <body>
     
@@ -22,7 +28,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Project.html">Projects</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
 
             
@@ -33,11 +39,12 @@
                 <div class="left"></div>
                 <div class="right">
                     <h2>Contact Us</h2>
-                    <input type="text" class="field" placeholder="Your Name">
-                    <input type="text" class="field" placeholder="Your Email">
-                    <input type="text" class="field" placeholder="Phone">
+                    <form onsubmit="sendMessage()" >
+                    <input type="text" class="field" placeholder="Your Name" required>
+                    <input type="email" class="field" placeholder="Your Email" required>
+                    <input type="text" class="field" placeholder="Phone" required>
                     <textarea placeholder="Message" class="field"></textarea>
-                    <button class="btn">Send</button>
+                    <button class="btn"  type="subnit">Send</button></form>
                 </div>
             </div>
         </div>
