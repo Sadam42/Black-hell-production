@@ -170,13 +170,68 @@ textarea{
     background-color: #fff;
 }
 
-@media screen and (max-width: 880px){
-	.contact-box{
+
+
+@media only screen and (max-width: 700px) {
+
+    
+
+    
+    
+    
+    .navbar ul{
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+        position:   absolute;
+        top: 125px;
+        font-size: 13px;
+        
+
+        right: 0;
+        z-index: 2;
+    }
+
+    
+    
+   
+
+
+
+    .logo{
+        width: 80px;
+        cursor: pointer;
+    }
+
+    .contact-box{
 		grid-template-columns: 1fr;
 	}
+
+
 	.left{
 		height: 200px;
+        bottom: 100px;
+        top: 100px;
 	}
+
+
+    .container{
+
+        top: 120px;
+        left: -70px;
+    }
+
+
+  
+
+
+
+    
+
+
+   
+   
+
+
+
+
 }
-
-
