@@ -125,3 +125,30 @@ button:hover span{
 button:hover{
     border: none;
 }
+
+
+@media only screen and (max-width:700px){
+
+    navbar ul{
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    .navbar ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbar ul li a{
+        color: rgb(235, 238, 245);
+
+
+    }
+
+    
+}
